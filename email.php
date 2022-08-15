@@ -33,8 +33,8 @@ function kirimEmail($nama, $phone, $email, $pesan){
   $mail->isSMTP();
   $mail->Host = "smtp.gmail.com";
   $mail->SMTPAuth = true;
-  $mail->Username = "mimin.pemburukode@gmail.com";
-  $mail->Password = "CaraKirimEmail";
+  $mail->Username = "fadhelfikri93@gmail.com";
+  $mail->Password = "Anaktolis";
   $mail->SMTPSecure = "ssl";
   $mail->Port = 465;
   $mail->From = "mimin.pemburukode@gmail.com";
